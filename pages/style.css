@@ -77,7 +77,6 @@
  
 .teleport-show {
   display: flex !important;
-  transform: none !important;
 }
  
 .thq-input {
@@ -536,6 +535,10 @@
   color: var(--dl-color-theme-neutral-light);
   z-index: -1;
   transform: scaleX(1);
+}
+ 
+.anchorscroll {
+  scroll-margin-top: 100px;
 }
  
 .Content {

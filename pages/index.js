@@ -3,13 +3,13 @@ import Head from 'next/head'
 
 import { useTranslations } from 'next-intl'
 
-import Navbar8 from '../components/navbar8'
-import Hero17 from '../components/hero17'
-import Features24 from '../components/features24'
-import Steps2 from '../components/steps2'
-import Testimonial17 from '../components/testimonial17'
-import CTA26 from '../components/cta26'
-import Footer4 from '../components/footer4'
+import Navbar from '../components/navbar'
+import Destaques from '../components/destaques'
+import Servicos from '../components/servicos'
+import Beneficios from '../components/beneficios'
+import Feedbacks from '../components/feedbacks'
+import CTA from '../components/cta'
+import Footer from '../components/footer'
 
 const Home = (props) => {
   const translate = useTranslations()
@@ -17,160 +17,44 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Playful Bogus Butterfly</title>
-          <meta property="og:title" content="Playful Bogus Butterfly" />
+          <title>
+            Netz – Soluções em Tecnologia para Empresas e Pessoas Físicas
+          </title>
+          <meta
+            name="description"
+            content="Serviços de TI sob medida para empresas e pessoas físicas: suporte técnico, consultoria, redes e muito mais. Fale conosco pelo WhatsApp!"
+          />
+          <meta
+            property="og:title"
+            content="Netz – Soluções em Tecnologia para Empresas e Pessoas Físicas"
+          />
+          <meta
+            property="og:description"
+            content="Serviços de TI sob medida para empresas e pessoas físicas: suporte técnico, consultoria, redes e muito mais. Fale conosco pelo WhatsApp!"
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/9fb190e6-4a7b-4449-9f30-67af5701f2f7/5929747b-2e13-49a6-8307-8bbd26957182?org_if_sml=1&amp;force_format=original"
+          />
         </Head>
-        <Navbar8
-          link1={
+        <Navbar
+          link2={
             <Fragment>
               <span className="home-text10">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_MECJWF'),
+                    __html: translate.raw('text_D6PuNQ'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          link2={
+          link21={
             <Fragment>
               <span className="home-text11">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_5jJAHR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link3={
-            <Fragment>
-              <span className="home-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_JUgH-_'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="home-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_QBo4uf'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page1={
-            <Fragment>
-              <span className="home-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_a6F4tr'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="home-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_XWBgub'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page3={
-            <Fragment>
-              <span className="home-text16">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ISbvJP'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page4={
-            <Fragment>
-              <span className="home-text17">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_J0JG33'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          action1={
-            <Fragment>
-              <span className="home-text18">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZxswGL'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          action2={
-            <Fragment>
-              <span className="home-text19">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_U0QnMD'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navbar8root-class-name"
-          page1Description={
-            <Fragment>
-              <span className="home-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7HD7Qz'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2Description={
-            <Fragment>
-              <span className="home-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_JUjCs6'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page3Description={
-            <Fragment>
-              <span className="home-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_a9e-FB'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page4Description={
-            <Fragment>
-              <span className="home-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_cReLUa'),
+                    __html: translate.raw('text_FQdOIQ'),
                   }}
                 ></span>
               </span>
@@ -178,10 +62,10 @@ const Home = (props) => {
           }
           link31={
             <Fragment>
-              <span className="home-text24">
+              <span className="home-text12">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_D6fRxw'),
+                    __html: translate.raw('text_t0YMDZ'),
                   }}
                 ></span>
               </span>
@@ -189,34 +73,28 @@ const Home = (props) => {
           }
           link311={
             <Fragment>
-              <span className="home-text25">
+              <span className="home-text13">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_RbZICM'),
+                    __html: translate.raw('text_0dby8J'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-        ></Navbar8>
-        <Hero17
+          link4Url="#Beneficios"
+          link5Url="#CTA"
+          link2Url1="#Destaques"
+          link2Url11="#Servicos"
+          rootClassName="navbarroot-class-name"
+        ></Navbar>
+        <Destaques
           action1={
             <Fragment>
-              <span className="home-text26">
+              <span className="home-text14">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Jdxzrr'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="home-text27">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TPa3V7'),
+                    __html: translate.raw('text_lyn4PZ'),
                   }}
                 ></span>
               </span>
@@ -224,24 +102,38 @@ const Home = (props) => {
           }
           content1={
             <Fragment>
-              <span className="home-text28">
+              <span className="home-text15">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3yf2dB'),
+                    __html: translate.raw('text_GS6iyL'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="hero17root-class-name"
-        ></Hero17>
-        <Features24
-          feature1Title={
+          heading1={
             <Fragment>
-              <span className="home-text29">
+              <span className="home-text16">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_KKOxe3'),
+                    __html: translate.raw('text_3fTlJi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          buttonUrl="#Servicos"
+          destaquesId="Destaques"
+          rootClassName="destaquesroot-class-name"
+        ></Destaques>
+        <Servicos
+          features24Id="Servicos"
+          feature1Title={
+            <Fragment>
+              <span className="home-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_U632pR'),
                   }}
                 ></span>
               </span>
@@ -249,10 +141,10 @@ const Home = (props) => {
           }
           feature2Title={
             <Fragment>
-              <span className="home-text30">
+              <span className="home-text18">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_mvXqd8'),
+                    __html: translate.raw('text_hkAysz'),
                   }}
                 ></span>
               </span>
@@ -260,21 +152,22 @@ const Home = (props) => {
           }
           feature3Title={
             <Fragment>
-              <span className="home-text31">
+              <span className="home-text19">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6SAvN-'),
+                    __html: translate.raw('text_36Plzw'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
+          rootClassName="servicosroot-class-name"
           feature1Description={
             <Fragment>
-              <span className="home-text32">
+              <span className="home-text20">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4YdVKN'),
+                    __html: translate.raw('text_syWCUG'),
                   }}
                 ></span>
               </span>
@@ -282,10 +175,10 @@ const Home = (props) => {
           }
           feature2Description={
             <Fragment>
-              <span className="home-text33">
+              <span className="home-text21">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_5L7i-R'),
+                    __html: translate.raw('text_KbWPV6'),
                   }}
                 ></span>
               </span>
@@ -293,23 +186,25 @@ const Home = (props) => {
           }
           feature3Description={
             <Fragment>
-              <span className="home-text34">
+              <span className="home-text22">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_uYpnS_'),
+                    __html: translate.raw('text_Q6VNU2'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-        ></Features24>
-        <Steps2
+        ></Servicos>
+        <Beneficios
+          steps2Id="Beneficios"
+          buttonUrl1="#Feedbacks"
           step1Title={
             <Fragment>
-              <span className="home-text35">
+              <span className="home-text23">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_meiRLB'),
+                    __html: translate.raw('text_HhdwlH'),
                   }}
                 ></span>
               </span>
@@ -317,10 +212,10 @@ const Home = (props) => {
           }
           step2Title={
             <Fragment>
-              <span className="home-text36">
+              <span className="home-text24">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Z4uIWS'),
+                    __html: translate.raw('text_kptzAL'),
                   }}
                 ></span>
               </span>
@@ -328,10 +223,10 @@ const Home = (props) => {
           }
           step3Title={
             <Fragment>
-              <span className="home-text37">
+              <span className="home-text25">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_dFpbmw'),
+                    __html: translate.raw('text_XWro7j'),
                   }}
                 ></span>
               </span>
@@ -339,21 +234,22 @@ const Home = (props) => {
           }
           step4Title={
             <Fragment>
-              <span className="home-text38">
+              <span className="home-text26">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zZqRZJ'),
+                    __html: translate.raw('text_Yc-BOU'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
+          rootClassName="beneficiosroot-class-name"
           step1Description={
             <Fragment>
-              <span className="home-text39">
+              <span className="home-text27">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_HGJ9H4'),
+                    __html: translate.raw('text_kgPkgY'),
                   }}
                 ></span>
               </span>
@@ -361,10 +257,10 @@ const Home = (props) => {
           }
           step2Description={
             <Fragment>
-              <span className="home-text40">
+              <span className="home-text28">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GQJMef'),
+                    __html: translate.raw('text_EyNXWk'),
                   }}
                 ></span>
               </span>
@@ -372,10 +268,10 @@ const Home = (props) => {
           }
           step3Description={
             <Fragment>
-              <span className="home-text41">
+              <span className="home-text29">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_p_6GLo'),
+                    __html: translate.raw('text_7XYGg2'),
                   }}
                 ></span>
               </span>
@@ -383,23 +279,23 @@ const Home = (props) => {
           }
           step4Description={
             <Fragment>
-              <span className="home-text42">
+              <span className="home-text30">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_A9qtbv'),
+                    __html: translate.raw('text_bJzBNH'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-        ></Steps2>
-        <Testimonial17
+        ></Beneficios>
+        <Feedbacks
           review1={
             <Fragment>
-              <span className="home-text43">
+              <span className="home-text31">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Up7UqX'),
+                    __html: translate.raw('text_Lruyx4'),
                   }}
                 ></span>
               </span>
@@ -407,10 +303,10 @@ const Home = (props) => {
           }
           review2={
             <Fragment>
-              <span className="home-text44">
+              <span className="home-text32">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9ttb7S'),
+                    __html: translate.raw('text_ERv_Xo'),
                   }}
                 ></span>
               </span>
@@ -418,10 +314,10 @@ const Home = (props) => {
           }
           review3={
             <Fragment>
-              <span className="home-text45">
+              <span className="home-text33">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_w_WSTu'),
+                    __html: translate.raw('text_BvYNmr'),
                   }}
                 ></span>
               </span>
@@ -429,10 +325,10 @@ const Home = (props) => {
           }
           review4={
             <Fragment>
-              <span className="home-text46">
+              <span className="home-text34">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_leHuXT'),
+                    __html: translate.raw('text_GEWwxU'),
                   }}
                 ></span>
               </span>
@@ -440,10 +336,10 @@ const Home = (props) => {
           }
           content1={
             <Fragment>
-              <span className="home-text47">
+              <span className="home-text35">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ybfqA8'),
+                    __html: translate.raw('text_qthDQV'),
                   }}
                 ></span>
               </span>
@@ -451,10 +347,10 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text48">
+              <span className="home-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vMI-Lk'),
+                    __html: translate.raw('text_VnFkWK'),
                   }}
                 ></span>
               </span>
@@ -462,10 +358,10 @@ const Home = (props) => {
           }
           author1Name={
             <Fragment>
-              <span className="home-text49">
+              <span className="home-text37">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_cGp4ta'),
+                    __html: translate.raw('text_zrHygi'),
                   }}
                 ></span>
               </span>
@@ -473,10 +369,10 @@ const Home = (props) => {
           }
           author2Name={
             <Fragment>
-              <span className="home-text50">
+              <span className="home-text38">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_HvBLAb'),
+                    __html: translate.raw('text_xKTbS-'),
                   }}
                 ></span>
               </span>
@@ -484,10 +380,10 @@ const Home = (props) => {
           }
           author3Name={
             <Fragment>
-              <span className="home-text51">
+              <span className="home-text39">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_z629Sz'),
+                    __html: translate.raw('text_1yRzF9'),
                   }}
                 ></span>
               </span>
@@ -495,21 +391,23 @@ const Home = (props) => {
           }
           author4Name={
             <Fragment>
-              <span className="home-text52">
+              <span className="home-text40">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6T4JeX'),
+                    __html: translate.raw('text_QcV-ve'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
+          feedbacksId1="Feedbacks"
+          rootClassName="feedbacksroot-class-name"
           author1Position={
             <Fragment>
-              <span className="home-text53">
+              <span className="home-text41">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_gFB9UH'),
+                    __html: translate.raw('text_N5Lp6-'),
                   }}
                 ></span>
               </span>
@@ -517,10 +415,10 @@ const Home = (props) => {
           }
           author2Position={
             <Fragment>
-              <span className="home-text54">
+              <span className="home-text42">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IQwLSL'),
+                    __html: translate.raw('text_wyGhWS'),
                   }}
                 ></span>
               </span>
@@ -528,10 +426,10 @@ const Home = (props) => {
           }
           author3Position={
             <Fragment>
-              <span className="home-text55">
+              <span className="home-text43">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_kdSXHp'),
+                    __html: translate.raw('text_UW1Wf6'),
                   }}
                 ></span>
               </span>
@@ -539,23 +437,23 @@ const Home = (props) => {
           }
           author4Position={
             <Fragment>
-              <span className="home-text56">
+              <span className="home-text44">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_K9w8Ws'),
+                    __html: translate.raw('text_dwFIM9'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-        ></Testimonial17>
-        <CTA26
+        ></Feedbacks>
+        <CTA
           action1={
             <Fragment>
-              <span className="home-text57">
+              <span className="home-text45">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zTnerA'),
+                    __html: translate.raw('text_veoSD9'),
                   }}
                 ></span>
               </span>
@@ -563,10 +461,10 @@ const Home = (props) => {
           }
           content1={
             <Fragment>
-              <span className="home-text58">
+              <span className="home-text46">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8xdbea'),
+                    __html: translate.raw('text_nTA1_8'),
                   }}
                 ></span>
               </span>
@@ -574,17 +472,18 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text59">
+              <span className="home-text47">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ytPHwx'),
+                    __html: translate.raw('text_8V6654'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-        ></CTA26>
-        <Footer4></Footer4>
+          rootClassName="ct-aroot-class-name"
+        ></CTA>
+        <Footer rootClassName="footerroot-class-name"></Footer>
       </div>
       <style jsx>
         {`
@@ -707,42 +606,6 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text47 {
-            display: inline-block;
-          }
-          .home-text48 {
-            display: inline-block;
-          }
-          .home-text49 {
-            display: inline-block;
-          }
-          .home-text50 {
-            display: inline-block;
-          }
-          .home-text51 {
-            display: inline-block;
-          }
-          .home-text52 {
-            display: inline-block;
-          }
-          .home-text53 {
-            display: inline-block;
-          }
-          .home-text54 {
-            display: inline-block;
-          }
-          .home-text55 {
-            display: inline-block;
-          }
-          .home-text56 {
-            display: inline-block;
-          }
-          .home-text57 {
-            display: inline-block;
-          }
-          .home-text58 {
-            display: inline-block;
-          }
-          .home-text59 {
             display: inline-block;
           }
         `}
