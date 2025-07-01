@@ -49,7 +49,6 @@ const Navbar8 = (props) => {
               </a>
               <a
                 href={props.link3Url}
-                target="_blank"
                 rel="noreferrer noopener"
                 className="navbar8-link31 thq-link thq-body-small"
               >
@@ -67,7 +66,6 @@ const Navbar8 = (props) => {
               </a>
               <a
                 href={props.link3Url1}
-                target="_blank"
                 rel="noreferrer noopener"
                 className="navbar8-link4 thq-link thq-body-small"
               >
@@ -85,7 +83,6 @@ const Navbar8 = (props) => {
               </a>
               <a
                 href={props.link3Url11}
-                target="_blank"
                 rel="noreferrer noopener"
                 className="navbar8-link51 thq-link thq-body-small"
               >
