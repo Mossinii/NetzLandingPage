@@ -352,6 +352,21 @@ const Beneficios = (props) => {
             .beneficios-max-width {
               flex-direction: column;
             }
+            .beneficios-text13 {
+              font-size: 22px;
+            }
+            .beneficios-text27 {
+              font-size: 22px;
+            }
+            .beneficios-text29 {
+              font-size: 22px;
+            }
+            .beneficios-text30 {
+              font-size: 22px;
+            }
+            .beneficios-text31 {
+              font-size: 22px;
+            }
           }
           @media (max-width: 767px) {
             .beneficios-section-header {
@@ -376,6 +391,9 @@ const Beneficios = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .beneficios-container1 {
+              height: 1320px;
+            }
             .beneficios-button {
               width: 100%;
             }

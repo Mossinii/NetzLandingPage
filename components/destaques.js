@@ -155,7 +155,7 @@ const Destaques = (props) => {
           .destaques-header78 {
             gap: var(--dl-layout-space-threeunits);
             width: 100%;
-            height: 744px;
+            height: 895px;
             display: flex;
             overflow: hidden;
             position: relative;
@@ -258,16 +258,36 @@ const Destaques = (props) => {
           }
 
           @media (max-width: 1600px) {
+            .destaques-header78 {
+              height: 866px;
+            }
             .destaquesroot-class-name {
               margin-top: 5px;
             }
           }
+          @media (max-width: 1200px) {
+            .destaques-header78 {
+              height: 886px;
+            }
+          }
+          @media (max-width: 991px) {
+            .destaques-header78 {
+              height: 915px;
+            }
+          }
           @media (max-width: 767px) {
+            .destaques-header78 {
+              height: 918px;
+            }
             .destaques-content2 {
               width: 100%;
             }
           }
           @media (max-width: 479px) {
+            .destaques-header78 {
+              height: 1007px;
+              margin-bottom: 4px;
+            }
             .destaques-actions {
               width: 100%;
               flex-direction: column;

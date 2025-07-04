@@ -20,6 +20,7 @@ const Navbar = (props) => {
             <nav className="navbar-links">
               <a
                 href={props.link2Url1}
+                target="_blank"
                 rel="noreferrer noopener"
                 className="navbar-link21 thq-link thq-body-small"
               >
@@ -37,6 +38,7 @@ const Navbar = (props) => {
               </a>
               <a
                 href={props.link2Url11}
+                target="_blank"
                 rel="noreferrer noopener"
                 className="navbar-link22 thq-link thq-body-small"
               >
@@ -54,6 +56,7 @@ const Navbar = (props) => {
               </a>
               <a
                 href={props.link4Url}
+                target="_blank"
                 rel="noreferrer noopener"
                 className="navbar-link4 thq-link thq-body-small"
               >
@@ -71,6 +74,7 @@ const Navbar = (props) => {
               </a>
               <a
                 href={props.link5Url}
+                target="_blank"
                 rel="noreferrer noopener"
                 className="navbar-link5 thq-link thq-body-small"
               >
