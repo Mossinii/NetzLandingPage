@@ -46,7 +46,6 @@ const CTA = (props) => {
                 <div className="cta-actions">
                   <a
                     href="https://wa.me/5493494999?text=Ola%2c%20gostaria%20de%20falar%20com%20a%20NETZ%20sobre%20serviços%20de%20TI"
-                    target="_blank"
                     rel="noreferrer noopener"
                     className="cta-link thq-button-filled"
                   >
